@@ -1,1 +1,60 @@
-아직 안했습니다ㅜㅜ
+main{
+    border: 1px solid black;
+    width: 980px;
+}
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top-left-menu {
+    display: flex;
+    list-style: none;
+}
+.top-left-menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;
+}
+#research{
+    border: 1px solid lightgray;
+    height: 25px;
+    background-color: lightgray;
+}
+.top-right-menu{
+    display: flex;
+    list-style: none;
+}
+.top-right-menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;
+}
+#top-right-menu3{
+    border: 1px solid lightseagreen;
+    background-color: lightseagreen;
+    height: 25px;
+}
+#top-right-menu3 a {
+    color: white;
+}
+.top-middle-menu-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.top-middle-menu-container a{
+    text-decoration: none;
+    
+}
+.fist-body-menu-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.fist-body-menu-container div{
+    font-weight: bold;
+}
