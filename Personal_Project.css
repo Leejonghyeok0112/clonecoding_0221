@@ -58,3 +58,52 @@ main{
 .fist-body-menu-container div{
     font-weight: bold;
 }
+
+.second-body-tab{
+    display: flex;
+}
+.sblc-01-container{
+    display: flex;
+}
+.sblc-02-container{
+    display: flex;
+}
+.sblc-03-container{
+    display: flex;
+}
+.sbrc-01-container{
+    display: flex;
+}
+.sbrc-02-container{
+    display: flex;
+}
+.second-body-right-container img{
+    height: auto;
+    width: 200px;
+}
+.second-body-left-container{
+    margin-right: 40px;
+}
+.tbt-menu-container{
+    display: flex;
+    list-style: none;
+}
+.tbt-menu-container img{
+    height: auto;
+    width: 200px;
+}
+.fbt-menu-container{
+    display: flex;
+    list-style: none;
+}
+.fbt-menu-container div{
+    margin-right: 40px;
+    font-weight: bold;
+}
+.fbt-menu-container img{
+    height: auto;
+    width: 200px;
+}
+
+
+
