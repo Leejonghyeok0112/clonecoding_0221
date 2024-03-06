@@ -94,8 +94,118 @@ main{
     right: 0px;
     padding-left: 5px;
 }
-
-
+.prev02{
+    left: 0px;
+    padding-right: 5px;
+}
+.next02{
+    right: 0px;
+    padding-left: 5px;
+}
+.prev02,
+.next02{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    font-size: 25px;
+    top: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.prev02:hover,
+.next02:hover{
+    background-color: beige;
+}
+.prev03{
+    left: 0px;
+    padding-right: 5px;
+}
+.next03{
+    right: 0px;
+    padding-left: 5px;
+}
+.prev03,
+.next03{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    font-size: 25px;
+    top: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.prev03:hover,
+.next03:hover{
+    background-color: beige;
+}
+.prev04{
+    left: 0px;
+    padding-right: 5px;
+}
+.next04{
+    right: 0px;
+    padding-left: 5px;
+}
+.prev04,
+.next04{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    font-size: 25px;
+    top: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.prev04:hover,
+.next04:hover{
+    background-color: beige;
+}
+.prev05{
+    left: 0px;
+    padding-right: 5px;
+}
+.next05{
+    right: 0px;
+    padding-left: 5px;
+}
+.prev05,
+.next05{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    font-size: 25px;
+    top: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.prev05:hover,
+.next05:hover{
+    background-color: beige;
+}
+.first-body-tap{
+    position: relative;
+    overflow: hidden;
+}
+.fbt-container{
+    position: relative;
+    overflow: hidden;
+}
 .top-middle-menu-container{
     display: flex;
     list-style: none;
@@ -121,12 +231,13 @@ main{
     display: flex;
     list-style: none;
     margin-left: -50px;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
 }
-.fb-package1,
-.fb-package2,
-.fb-package3,
-.fb-package4{
+
+.fb-package{
 margin-left: 20px;
+flex: 0 0 0;
 }
 .fist-body-menu-container div{
     font-weight: bold;
@@ -234,11 +345,15 @@ margin-left: 20px;
     width: auto;
     border-radius: 10px;
 }
-
+.tbt-container{
+    overflow: hidden;
+    position: relative;
+}
 
 .tbt-menu-container{
     display: flex;
     list-style: none;
+    transition: transform 0.5s ease-in-out;
 }
 .tbt-menu-container{
     margin-left: -30px;
@@ -248,18 +363,14 @@ margin-left: 20px;
     width: 240px;
     border-radius: 10px;
 }
-.tbt-package1,
-.tbt-package2,
-.tbt-package3,
-.tbt-package4{
+.tbt-package
+{
     text-align: left;
     margin-right: 20px;
     position: relative;
 }
-.tbt-inner1,
-.tbt-inner2,
-.tbt-inner3,
-.tbt-inner4{
+
+.tbt-inner{
     position: absolute;
     bottom:30px;
     color: white;
@@ -276,19 +387,19 @@ margin-left: 20px;
     display: flex;
     list-style: none;
     margin-left: -30px;
+    transition: transform 0.5s ease-in-out;
 }
 .fbt-menu-container img{
     height: auto;
     width: 240px;
     border-radius: 10px;
 }
-.fbt-package1,
-.fbt-package2,
-.fbt-package3,
-.fbt-package4{
+
+.fbt-package{
     margin-right: 20px; 
     font-weight: bold;
     color: gray;  
+    
 }
 .fit_container{
     display: flex;
@@ -345,6 +456,7 @@ margin-left: 20px;
 .sbt-menu-container{
     display: flex;
     margin-left: -30px;
+    transition: transform 0.5s ease-in-out;
 }
 .sbt-menu-container li{
     list-style: none;
@@ -354,13 +466,17 @@ margin-left: 20px;
 }
 .sbt-menu-container img{
     height: auto;
-    width: 325px;
+    width: 328px;
     margin-right: 20px;
     border-radius: 10px;
 }
 .sbt-menu-container div{
     font-weight: bold;
     color: gray;
+}
+.sbt-container{
+    overflow: hidden;
+    position: relative;
 }
 .bottom-top-container{
     display: flex;
